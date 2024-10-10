@@ -93,7 +93,7 @@
             <div class="modal-body">
                 <div class="container prijava-form">
                     <form action="#" method="post" id="dodajForm">
-                        <h3 style="color: black; text-align: center" >Zakazi kolokvijum</h3>
+                        <h3 style="color: black; text-align: center" >Zakazite kolokvijum</h3>
                         <div class="row">
                             <div class="col-md-11 ">
                                 <div class="form-group">

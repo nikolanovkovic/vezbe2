@@ -18,7 +18,7 @@ if(isset($_POST["username"])&& isset($_POST["password"])){
     if($odgovor->num_rows==1){
         echo `
         <script>
-        console.log("Uspesna prijava");
+        console.log("Uspesno ste se prijavili");
         </script>
         
         `;
@@ -28,7 +28,7 @@ if(isset($_POST["username"])&& isset($_POST["password"])){
     }else{
         echo `
         <script>
-        console.log("Neuspesna prijava");
+        console.log("Niste se prijavili");
         </script>
         
         `;
@@ -59,7 +59,7 @@ if(isset($_POST["username"])&& isset($_POST["password"])){
                     <br>
                     <label for="password">Lozinka</label>
                     <input type="password" name="password" class="form-control" required>
-                    <button type="submit" class="btn btn-primary" name="submit">Prijavi se</button>
+                    <button type="submit" class="btn btn-primary" name="submit">Prijavite se</button>
                 </div>
 
             </form>
