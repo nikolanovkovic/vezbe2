@@ -23,7 +23,7 @@
     </div>
     <div class="col-md-4">
         <button id="btn-dodaj" type="button" class="btn btn-success btn-block"
-                style="background-color: teal; border: 1px solid white;" data-toggle="modal" data-target="#myModal"> Zakazi kolokvijum</button>
+                style="background-color: teal; border: 1px solid white;" data-toggle="modal" data-target="#myModal"> Zakazite kolokvijum</button>
 
     </div>
     <div class="col-md-4">
@@ -65,16 +65,16 @@
         </table>
         <div class="row" >
             <div class="col-md-1" style="text-align: right">
-                <button id="btn-izmeni" class="btn btn-warning" data-toggle="modal" data-target="#izmeniModal">Izmeni</button>
+                <button id="btn-izmeni" class="btn btn-warning" data-toggle="modal" data-target="#izmeniModal">Izmenite</button>
                 
             </div>
 
             <div class="col-md-12" style="text-align: right">
-                <button id="btn-obrisi" class="btn btn-danger" style="background-color: red; border: 1px solid white;">Obrisi</button>
+                <button id="btn-obrisi" class="btn btn-danger" style="background-color: red; border: 1px solid white;">Obrisite</button>
             </div>
 
             <div class="col-md-2" style="text-align: right>; color:" >
-                    <button id="btn-sortiraj" class="btn btn-normal" onclick="sortTable()">Sortiraj</button>
+                    <button id="btn-sortiraj" class="btn btn-normal" onclick="sortTable()">Sortirajte</button>
                 </div>
 
         </div>
