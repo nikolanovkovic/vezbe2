@@ -18,7 +18,7 @@ if(isset($_POST["username"])&& isset($_POST["password"])){
     if($odgovor->num_rows==1){
         echo `
         <script>
-        console.log("Uspesno ste se prijavili");
+        console.log("Prijava uspesna");
         </script>
         
         `;
@@ -28,7 +28,7 @@ if(isset($_POST["username"])&& isset($_POST["password"])){
     }else{
         echo `
         <script>
-        console.log("Niste se prijavili");
+        console.log("Prijava neuspesna");
         </script>
         
         `;
